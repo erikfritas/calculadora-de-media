@@ -1,60 +1,63 @@
-body {
-  font-family: 'Roboto Mono',monospace;
-  min-height: 800px;
-  background-image: url('../img/201635.png');
-  background-color: #000000;
-  background-size: 54vh;
-  background-position: bottom;
-  background-repeat: no-repeat;
-}
-
-.container {
-  text-align: center;
-  padding: 20px;
-  height: 100vh;
-}
-
 .page-title {
+  /* Colors */
   color:#ffffff;
+
+  /* Aligns */
   margin: 0 0 5px;
 }
 
 .page-subtitle {
+  /* Colors */
   color:#ffffff;
+
+  /* Aligns */
   margin-top: 5px;
 }
 
 .page-logo {
+  /* Sizes */
   width: 200px;
 }
 
 .formulario{
+  /* Aligns */
   margin: 20px;
 }
 
 input{
+  /* Sizes */
   width: 200px;
   height: 25px;
+
+  /* Aligns */
   margin-bottom: 20px;
 }
 
 .titulo-label{
+  /* Colors */
   color: #fff;
+
+  /* Aligns */
   margin: 20px;
 }
 
 .formulario button{
+  /* Sizes */
   width: 200px;
   padding: 8px;
 }
 
 .alura-logo {
+  /* Sizes */
   width: 40px;
+
+  /* Aligns */
   position: absolute;
   top: 10px;
   right: 10px;
 }
 
 #resultado{
+  /* Colors */
   color: #fff;
 }

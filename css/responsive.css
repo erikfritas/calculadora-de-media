@@ -1,0 +1,11 @@
+@media screen and (max-width: 800px) {
+    .container{
+        /* Sizes */
+        width: 100%;
+
+        /* Flex */
+        display: block;
+        text-align: center;
+        overflow-y: auto;
+    }
+}

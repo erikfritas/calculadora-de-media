@@ -1,0 +1,17 @@
+*{
+    /* Aligns */
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+
+    /* Sizes */
+    box-sizing: border-box;
+}
+
+html, body {
+    /* Sizes */
+    height: 100%;
+
+    /* Colors */
+    background-image: linear-gradient(to bottom, rgb(42, 42, 68), black);
+}

@@ -1,0 +1,30 @@
+.container {
+    /* Aligns */
+    margin: auto;
+    margin-top: 0px;
+
+    /* Flex */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    /* Sizes */
+    padding: 20px;
+    height: 80%;
+    width: 60%;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+
+    /* Colors */
+    background-color: rgba(4, 0, 255, 0.145);
+
+    /* Times */
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) .5s;
+}
+
+.container:hover{
+    /* Sizes */
+    height: 100%;
+    border-radius: 0px;
+}
